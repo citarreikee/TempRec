@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0pt"
+    android:layout_marginRight="0pt"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_image"
+        android:layout_width="1216pt"
+        android:layout_height="912pt"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text_title1"
+            android:layout_width="180pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="30pt"
+            android:layout_marginTop="50pt"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="40pt" />
+
+        <TextView
+            android:id="@+id/text_title2"
+            android:layout_width="180pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="273pt"
+            android:layout_marginTop="50pt"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="40pt" />
+
+        <TextView
+            android:id="@+id/text_title3"
+            android:layout_width="180pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="516pt"
+            android:layout_marginTop="50pt"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="40pt" />
+
+        <TextView
+            android:id="@+id/text_title4"
+            android:layout_width="180pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="759pt"
+            android:layout_marginTop="50pt"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="40pt" />
+
+        <TextView
+            android:id="@+id/text_title5"
+            android:layout_width="180pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="1002pt"
+            android:layout_marginTop="50pt"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="40pt" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100pt"
+            android:layout_height="100pt"
+            android:layout_marginLeft="1100pt"
+            android:background="@mipmap/ic_launcher_ct"></ImageView>
+
+        <SurfaceView
+            android:id="@+id/mySurfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+        <SurfaceView
+            android:id="@+id/mySurfaceView_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <FrameLayout
+            android:id="@+id/myFrameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+
+    <!--<SurfaceView-->
+    <!--android:id="@+id/surfaceView"-->
+    <!--android:layout_width="640pt"-->
+    <!--android:layout_height="480pt"-->
+    <!--android:layout_centerInParent="true" />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40pt"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/btn_style_word"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="Environment Temperature："
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text5"
+            style="@style/btn_style_number"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="20.0"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text2"
+            style="@style/btn_style_word"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="Environment Humidity："
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text6"
+            style="@style/btn_style_number"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="30.0"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text3"
+            style="@style/btn_style_word"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="Maximum Temperature："
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text7"
+            style="@style/btn_style_number"
+            android:background="#000000"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#FF4040" />
+
+        <TextView
+            android:id="@+id/text4"
+            style="@style/btn_style_word"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="Minimum Temperature："
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text8"
+            style="@style/btn_style_number"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="  "
+            android:textColor="#FF4040" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imag1"
+        style="@style/img_style"
+        android:layout_width="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

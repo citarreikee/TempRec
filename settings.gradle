@@ -1,0 +1,1 @@
+include ':app', ':uvccamerasdk', ':openCVLibrary341', ':OpenALPR'

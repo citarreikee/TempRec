@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidUVCCamera-master.iml" filepath="$PROJECT_DIR$/AndroidUVCCamera-master.iml" group="AndroidUVCCamera-master" />
+      <module fileurl="file://$PROJECT_DIR$/OpenALPR/OpenALPR.iml" filepath="$PROJECT_DIR$/OpenALPR/OpenALPR.iml" group="AndroidUVCCamera-master/OpenALPR" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidUVCCamera-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary341/openCVLibrary341.iml" filepath="$PROJECT_DIR$/openCVLibrary341/openCVLibrary341.iml" group="AndroidUVCCamera-master/openCVLibrary341" />
+      <module fileurl="file://$PROJECT_DIR$/uvccamerasdk/uvccamerasdk.iml" filepath="$PROJECT_DIR$/uvccamerasdk/uvccamerasdk.iml" group="AndroidUVCCamera-master/uvccamerasdk" />
+    </modules>
+  </component>
+</project>
